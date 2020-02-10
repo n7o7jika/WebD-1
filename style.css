@@ -1,0 +1,170 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+body{
+    width:100%;
+    background:#f9f9f9;
+}
+
+.main-visual{
+    width:100%;
+    height:500px;
+    background:#fff url(pool2.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
+}
+
+#main{
+    width:600px;
+    margin:0 auto;
+    overflow:hidden;
+    background:#fff;
+    padding:30px;
+    float:left;
+}
+
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+
+.container h1{
+    color:white;
+    font-size: 100px;
+    font-family:serif;
+}
+
+.content{
+    border-bottom: 1px solid #eee;
+    padding:16px 0;
+    overflow:hidden;
+    height:250px;
+}
+
+#header{
+    width:100%;
+    overflow: hidden;
+}
+
+#header h1{
+    color:#f9f9f9;
+    font-size: 90px;
+    font-family:serif;
+    text-align: center;
+    padding-top:100px;
+    
+}
+
+nav{
+    overflow:hidden;
+}
+
+nav li{
+    list-style-type: none;
+    margin-top:2px;
+    display: list-item;
+}
+
+nav a{
+    font-size:20px;
+    display:block;
+    text-decoration: none;
+    color:#f9f9f9;
+    margin:16px 4px 0px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    border-bottom:3px solid #f9f9f9;
+}
+/*
+h1{
+    font-size:36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+}
+*/
+
+.top-title{
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color:#555;
+    font-weight: 400;
+    border-left: 6px solid #CD853F	;
+
+}
+
+.content h1{
+    font-size:20px;
+    color:black;
+    font-family:inherit;
+}
+
+h2{
+    color: black;
+    font-size:30px;
+}
+
+p{
+    margin-bottom:16px;
+    font-size: 15px;
+}
+
+.right-box{
+    float:left;
+    width:288px;
+    margin-left:18px;
+}
+
+.left-box{
+    float:left;
+    width:180px;
+    margin-right:18px;
+    
+}
+a.fbbutton{
+    margin-top:16px;
+    font-style: 16px;
+    padding: 8px 32px;
+    background:#D2B48C;
+    color:white;
+    border:1px solid #D2B48C;
+    border-radius:5px;
+    text-decoration:none;
+    transition:0.5s;
+}
+
+a.fbbutton:hover{
+    background: white;
+    color:#D2B48C;
+}
+
+.content:last-child{
+    border-bottom:0px;
+}
+
+#sidebar{
+    float:left;
+    width:280px;
+    margin:0px 12px;
+    background:#fff;
+    padding:8px;
+}
+
+#sidebar img{
+    margin-bottom: 16px;
+}
+
+#sidebar h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar p{
+    font-size: 16px;
+}
